@@ -29,7 +29,7 @@ const Loader = ({ height, isFullScreen, loaderText }) => {
             </svg>
           </p>
 
-          <span className="sr-only">Loading...</span>
+          <span className="sr-only">Loading....</span>
           {loaderText && (
             <span className="text-gray-500 font-bold text-center">
               {loaderText}
